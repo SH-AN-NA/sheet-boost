@@ -1,0 +1,12 @@
+# Local reference material and unrelated profile assets
+/github-profile/
+/tuf-enhancer-source/
+/tuf-enhancer.crx
+/tuf-enhancer.zip
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.log

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sheet Boost</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <header>
+      <img class="brand-icon" src="icons/sheet-boost-128.png" alt="Sheet Boost logo">
+      <div><h1>Sheet Boost</h1><p>For takeUforward sheets</p></div>
+      <span class="status-dot" aria-label="Extension enabled"></span>
+    </header>
+    <main>
+      <label class="setting">
+        <span><strong>Quick problem links</strong><small>Add direct GFG, LeetCode, and Coding Ninjas links where available.</small></span>
+        <input id="quickLinks" type="checkbox">
+        <i aria-hidden="true"></i>
+      </label>
+      <label class="setting">
+        <span><strong>Highlight completed sections</strong><small>Make topics at 100% completion easier to spot.</small></span>
+        <input id="completedStyle" type="checkbox">
+        <i aria-hidden="true"></i>
+      </label>
+      <div class="note"><span>↗</span> Open a takeUforward sheet to see the enhancements.</div>
+    </main>
+    <footer>Sheet Boost <span>•</span> v1.0.9</footer>
+    <script src="popup.js"></script>
+  </body>
+</html>

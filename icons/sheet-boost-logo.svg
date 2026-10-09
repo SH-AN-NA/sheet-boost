@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Sheet Boost</title>
+  <defs>
+    <linearGradient id="bg" x1="12" y1="8" x2="116" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8be8ce"/>
+      <stop offset="1" stop-color="#72a9ff"/>
+    </linearGradient>
+    <linearGradient id="page" x1="34" y1="24" x2="88" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eaf5ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="34" fill="#111827"/>
+  <rect x="10" y="10" width="108" height="108" rx="30" fill="url(#bg)"/>
+  <path d="M36 25h38l19 19v56a7 7 0 0 1-7 7H36a7 7 0 0 1-7-7V32a7 7 0 0 1 7-7Z" fill="url(#page)"/>
+  <path d="M74 25v14a6 6 0 0 0 6 6h13" fill="#d3e7f8"/>
+  <path d="m41 58 5 5 9-10M41 79l5 5 9-10" fill="none" stroke="#34b98e" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <path d="M63 60h17M63 81h12" fill="none" stroke="#91a4bd" stroke-linecap="round" stroke-width="5"/>
+  <path d="m79 99 4-18 7 7 13-16" fill="none" stroke="#315ee8" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+  <path d="m103 72-1 13-12-5" fill="#315ee8"/>
+</svg>
